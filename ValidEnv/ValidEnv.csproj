@@ -8,7 +8,7 @@
     <PackageId>ValidEnv</PackageId>
     <Description>Easily parse and validate environment variables in .NET</Description>
     <PackageTags>Environment variables, Validate</PackageTags>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>odincat</Authors>
     <Company>odincat</Company>
     <RepositoryUrl>https://github.com/odincat/valid-env</RepositoryUrl>
