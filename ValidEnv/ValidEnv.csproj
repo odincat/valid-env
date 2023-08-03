@@ -4,6 +4,20 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>ValidEnv</PackageId>
+    <Description>Easily parse and validate environment variables in .NET</Description>
+    <PackageTags>Environment variables, Validate</PackageTags>
+    <Version>1.0.1</Version>
+    <Authors>odincat</Authors>
+    <Company>odincat</Company>
+    <RepositoryUrl>https://github.com/odincat/valid-env</RepositoryUrl>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../readme.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>

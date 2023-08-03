@@ -1,9 +1,11 @@
 # ValidEnv - Trust your environment variables
+<a href="https://www.nuget.org/packages/ValidEnv/" target="_blank"><img src="https://img.shields.io/badge/nuget.org-ValidEnv-blue"></a>
+
 ValidEnv is a small library that makes it easy to access and enforce environment variables when developing .NET applications.
 Fully inspired by [envsafe](https://github.com/KATT/envsafe) (which is made for TypeScript) and thereby [envalid](https://github.com/af/envalid).
 
 ## Getting started
-// Install instructions via nuget coming very soon!
+Install it via the .NET-CLI: `dotnet add package ValidEnv`.
 
 First, we declare a static class, which will hold all of our environment variables and can be accessed anywhere in your application.
 In there, we declare a field (also static) with the desired type used by the application.
