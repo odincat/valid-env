@@ -21,7 +21,7 @@ You can also call two additional methods on an `EnvironmentVariable`:
 - `WithFallback(T fallback)`: Allows you to specify a default value, which is used if the environment variable isn't declared. (A message will also be printed.)
 
 ```c#
-using SafeEnv;
+using ValidEnv;
 //    ^: In this example, this uses: "EnvironmentVariable" and "BuiltIn"
 
 public static class Env
